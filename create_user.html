@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Employee</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            margin-left: 210px;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #1976d2;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .form-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+
+        .form-group input,
+        .form-group select {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            min-width: 300px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .skills {
+            margin-top: 10px;
+        }
+
+
+        .skills label {
+            margin-right: 20px;
+            font-weight: normal;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buttons {
+            margin-left: 1000px;
+            margin-bottom: 20px;
+        }
+
+        .save-btn {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .cancel-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        #male {
+            margin-right: -135px;
+            margin-left: -100px;
+        }
+
+        #female {
+            margin-right: -135px;
+            margin-left: -50px;
+        }
+
+        #gender {
+            display: flex;
+        }
+
+        #others {
+            margin-right: -140px;
+        }
+
+
+        .skills-group {
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 85px;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="header">
+            <h3>Employee Create</h3>
+            <button
+                style="background-color: #0d47a1; color: white; padding: 8px 15px; border: none; border-radius: 4px;">Logout</button>
+        </div>
+
+        <div class="form-section">
+            <h2>Employee Details</h2>
+            <div class="form-group">
+                <div>
+                    <label>First Name</label>
+                    <input id='firstname' type="text" placeholder="First Name" />
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input id="lastname" type="text" placeholder="Last Name" />
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input id="email" type="email" placeholder="Email Id" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <label>Mobile Number</label>
+                    <input id="mobile" type="text" placeholder="Mobile No" />
+                </div>
+                <div>
+                    <label>Date of Birth</label>
+                    <input id="date" type="date" placeholder="dd/mm/yyyy" />
+                </div>
+                <div id="gender-1">
+                    <label>Gender</label>
+                    <div id="gender">
+                        <div>
+                            <label><input id="male" type="radio" name="gender" value="male"> Male</label>
+                        </div>
+                        <div>
+                            <label><input id="female" type="radio" name="gender" value="female"> Female</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div style="flex: 2;">
+                    <label>Address</label>
+                    <input id="address" type="text" placeholder="Address" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <label>Country</label>
+                    <select id="country">
+                        <option>--Select Country--</option>
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>Russia</option>
+                        <option>France</option>
+                    </select>
+                </div>
+                <div>
+                    <label>City</label>
+                    <select id="city">
+                        <option>--Select City--</option>
+                        <option>Hyderabad</option>
+                        <option>Bangalore</option>
+                        <option>Andhra pradhesh</option>
+                        <option>chenai</option>
+                        <option>Mumbai</option>
+                    </select>
+                </div>
+                <div style="margin-top: 28px; margin-left: -80px; ">
+                    <input id="others" type="checkbox" /> Other City
+                </div>
+            </div>
+            <h3>Skills</h3>
+            <div class="skills">
+                <div class="form-row">
+                    <div class="skills-group checkbox-group">
+                        <div>
+                            <label><input type="checkbox" class="skill" > AWS</label>
+                            <label><input type="checkbox" class="skill" > DevOps</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" class="skill" > Full Stack Developer</label>
+                            <label><input type="checkbox" class="skill"> Middleware</label>
+                        </div>
+                        <label><input type="checkbox" class="skill"> QA-Automation</label>
+                        <label><input type="checkbox" class="skill"> WebServices</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="save-btn" onclick="saveUser()"> Save</button>
+                <button class="cancel-btn" id="cancelBtn" onclick="canceldata()">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function saveUser() {
+            const skills = ['AWS', 'DevOps', 'Full Stack Developer', 'Middleware', 'QA-Automation', 'Web Services'];
+            const skillsChecked = [];
+            const skillInputs = document.getElementsByClassName('skill');
+            for (let i = 0; i < skillInputs.length; i++) {
+                if (skillInputs[i].checked) {
+                    skillsChecked.push(skills[i]);
+                }
+            };
+            console.log(skillsChecked);
+            const radios = document.getElementsByName('gender');
+            let chosen = '';
+            for (let r of radios) {
+                if (r.checked) {
+                    chosen = r.value;
+                    break;
+                }
+            };
+            const requestBody = {
+                firstname: document.getElementById('firstname').value,
+                lastname: document.getElementById('lastname').value,
+                email: document.getElementById('email').value,
+                mobile: document.getElementById('mobile').value,
+                date: document.getElementById('date').value,
+                checkbox: innerText=skillsChecked,
+                gender: innerText = chosen,
+                address: document.getElementById('address').value,
+                country: document.getElementById('country').value,
+                city: document.getElementById('city').value,
+
+            };
+
+            fetch(
+                'http://localhost:4000/jala_acadamey',
+                {
+                    method: 'POST',
+                    body: JSON.stringify(requestBody)
+                }
+            ).then(function (response) {
+                return response.json();
+            }).then(function (parsedResponse) {
+                
+                window.alert('create the user successfully');
+                window.location.href = 'search.html';
+            }).catch(function (error) {
+
+            });
+        };
+    </script>
+
+</body>
+
+</html>

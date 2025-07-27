@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "firstname": "loki",
+      "lastname": "Likhitha",
+      "email": "likhitha.parise@gmail.com",
+      "mobile": "9032345123",
+      "password": "undefined",
+      "id": "67734"
+    },
+    {
+      "firstname": "Neha",
+      "lastname": "jana",
+      "email": "neha.sharma@example.com",
+      "mobile": "9123456780",
+      "password": "Neha@2025",
+      "id": "4720"
+    },
+    {
+      "firstname": "varun sai",
+      "lastname": "kumar",
+      "email": "varunsairam@gmail.com",
+      "mobile": "9032345172",
+      "password": "765543",
+      "id": "1502"
+    },
+    {
+      "id": "3847",
+      "firstname": "Sneha",
+      "lastname": "Patel",
+      "email": "sneha.patel@example.com",
+      "mobile": "9012345678",
+      "password": "Sneh@567"
+    },
+    {
+      "id": "2458",
+      "firstname": "Aditya",
+      "lastname": "Verma",
+      "email": "aditya.verma@example.com",
+      "mobile": "9765432109",
+      "password": "Adity@2025"
+    },
+    {
+      "id": "6139",
+      "firstname": "Isha",
+      "lastname": "Reddy",
+      "email": "isha.reddy@example.com",
+      "mobile": "9456123780",
+      "password": "Isha!2025"
+    },
+    {
+      "id": "7284",
+      "firstname": "Vikram",
+      "lastname": "Singh",
+      "email": "vikram.singh@example.com",
+      "mobile": "9567890123",
+      "password": "Vikram#789"
+    },
+    {
+      "id": "3905",
+      "firstname": "Priya",
+      "lastname": "Chopra",
+      "email": "priya.chopra@example.com",
+      "mobile": "9678901234",
+      "password": "Priya$456"
+    }
+  ],
+  "data": [
+    {
+      "id": "EMP001",
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "role": "Software Engineer",
+      "yearsOfExperience": 5,
+      "mobileNumber": "9000000001"
+    },
+    {
+      "id": "EMP002",
+      "name": "Anjali Sharma",
+      "email": "anjali.sharma@example.com",
+      "role": "Project Manager",
+      "yearsOfExperience": 8,
+      "mobileNumber": "9000000002"
+    },
+    {
+      "id": "EMP003",
+      "name": "Vikram Rathod",
+      "email": "vikram.singh@example.com",
+      "role": "Data Analyst",
+      "yearsOfExperience": 3,
+      "mobileNumber": "9000000003"
+    },
+    {
+      "id": "EMP004",
+      "name": "Priya Desai",
+      "email": "priya.desai@example.com",
+      "role": "UX Designer",
+      "yearsOfExperience": 6,
+      "mobileNumber": "9000000004"
+    },
+    {
+      "id": "EMP005",
+      "name": "Amit Patel",
+      "email": "amit.patel@example.com",
+      "role": "DevOps Engineer",
+      "yearsOfExperience": 4,
+      "mobileNumber": "9000000005"
+    },
+    {
+      "id": "EMP006",
+      "name": "Neha Reddy",
+      "email": "neha.reddy@example.com",
+      "role": "AI Researcher",
+      "yearsOfExperience": 7,
+      "mobileNumber": "9392321763"
+    },
+    {
+      "id": "EMP007",
+      "name": "Suresh Mehta",
+      "email": "suresh.mehta@example.com",
+      "role": "Cloud Architect",
+      "yearsOfExperience": 10,
+      "mobileNumber": "9000000007"
+    },
+    {
+      "id": "EMP008",
+      "name": "Divya Kapoor",
+      "email": "divya.kapoor@example.com",
+      "role": "Frontend Developer",
+      "yearsOfExperience": 2,
+      "mobileNumber": "9000000008"
+    },
+    {
+      "id": "EMP009",
+      "name": "Karan Malhotra",
+      "email": "karan.malhotra@example.com",
+      "role": "Backend Developer",
+      "yearsOfExperience": 4,
+      "mobileNumber": "9000000009"
+    },
+    {
+      "id": "EMP010",
+      "name": "Meena Joshi",
+      "email": "meena.joshi@example.com",
+      "role": "QA Engineer",
+      "yearsOfExperience": 5,
+      "mobileNumber": "9000000010"
+    }
+  ],
+  "shipmanagement": [
+    {
+      "name": "AUDINARAYANA",
+      "imono": "98765",
+      "flag": "United States",
+      "status": "Under Maintenance",
+      "id": "1073"
+    },
+    {
+      "name": "KAIDUPALLI AUDINARAYANA",
+      "imono": "897896",
+      "flag": "India",
+      "status": "Under Maintenance",
+      "id": "3139"
+    },
+    {
+      "name": "Jaanu",
+      "imono": "957212",
+      "flag": "United Kingdom",
+      "status": "Active",
+      "id": "c8e3"
+    },
+    {
+      "name": "Ram",
+      "imono": "799721",
+      "flag": "GB",
+      "status": "Under Maintenance",
+      "id": "f79a"
+    },
+    {
+      "id": "63ad",
+      "name": "Abhi",
+      "imono": "232323",
+      "flag": "India",
+      "status": "Active"
+    },
+    {
+      "id": "8dc5",
+      "firtname": "jaanu",
+      "lastname": "bommireddy",
+      "email": "jaanu@gmail.com",
+      "password": "9572",
+      "role": "Inspector",
+      "mobile": "7997838435"
+    }
+  ],
+  "jala_acadamey": [
+    {
+      "firstname": "AUDINARAYANA ",
+      "lastname": "adiadhithya",
+      "mobile": "09989522910",
+      "email": "adi094032@gmail.com",
+      "gender": "male",
+      "date": "2002-10-25",
+      "country": "USA",
+      "city": "Hyderabad",
+      "address": "kavali",
+      "id": "a289"
+    },
+    {
+      "firstname": "Jaanu ",
+      "lastname": "bommireddy",
+      "mobile": "7997838435",
+      "email": "jaanu@gmail.com",
+      "gender": "female",
+      "date": "2003-06-17",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "jaldhinki",
+      "id": "0696"
+    },
+    {
+      "firstname": "Ramcharan",
+      "lastname": " Konidhala",
+      "mobile": "9989522910",
+      "email": "adi094032@gmail.com",
+      "gender": "male",
+      "date": "1997-03-27",
+      "country": "India",
+      "city": "Hyderabad",
+      "address": "hyderbad",
+      "id": "2131"
+    },
+    {
+      "id": "0880",
+      "firstname": "AUDINARAYANA ",
+      "lastname": "adiadhithya",
+      "email": "adi094032@gmail.com",
+      "mobile": "09989522910",
+      "date": "2002-10-25",
+      "checkbox": [
+        "Middleware",
+        "Web Services"
+      ],
+      "gender": "male",
+      "address": "kavali",
+      "country": "USA",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "e97c",
+      "firstname": "mbj mekala",
+      "lastname": "adiadhithya",
+      "email": "adi094032@gmail.com",
+      "mobile": "09989522910",
+      "date": "2025-07-17",
+      "checkbox": [
+        "AWS",
+        "Middleware",
+        "QA-Automation"
+      ],
+      "gender": "male",
+      "address": "kavali",
+      "country": "India",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "b5f4",
+      "firstname": "hariram",
+      "lastname": "krishna",
+      "email": "hari@gamil.com",
+      "mobile": "987845475",
+      "date": "2002-12-25",
+      "checkbox": [
+        "AWS",
+        "Full Stack Developer",
+        "Middleware",
+        "Web Services"
+      ],
+      "gender": "male",
+      "address": "wrangle",
+      "country": "India",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "b035",
+      "firstname": "adhi adhitya",
+      "lastname": " goud",
+      "email": "adi094032@gmail.com",
+      "mobile": "9391329572",
+      "date": "2002-10-25",
+      "checkbox": [
+        "DevOps",
+        "Full Stack Developer",
+        "QA-Automation",
+        "Web Services"
+      ],
+      "gender": "male",
+      "address": "nellore",
+      "country": "India",
+      "city": "Andhra pradhesh"
+    }
+  ]
+}
